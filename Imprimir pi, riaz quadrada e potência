@@ -1,0 +1,20 @@
+package javaapplication1;
+
+public class JavaApplication1 {
+
+    public static void main(String[] args) {
+       
+        double base = 3;
+        double expoente = 3;
+        double resultado = Math.pow(base,expoente);
+        System.out.println("A potência é: "+resultado);
+       
+        double raiz = Math.sqrt(4);
+        System.out.println("A raiz é: "+raiz);
+
+        double pi = Math.PI;
+        System.out.println("O número pi é: "+pi);
+        
+    }
+    
+}
